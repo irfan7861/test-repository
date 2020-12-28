@@ -1,0 +1,95 @@
+In programming, a loop means repeating something multiple times. There are different kinds of loops:
+
+While loops repeat something while a condition is true.
+Until loops repeat something while a condition is false.
+For loops repeat something for each element of something.
+
+
+
+#Diffrence between for loop and while loop?
+For loop-
+
+
+1.In for loop statement is executed then after increment and decrement the values.
+2.We used for loop when we already know no. of loop iterations.
+3.For loop executes n number of steps in single line.
+4.If the condition is not satisfied it execute infinite time.
+
+While Loop-
+In python, while loop is used to execute a block of statements repeatedly until a given a condition is satisfied.
+And when the condition becomes false, the line immediately after the loop in program is executed.
+1.In while loop statement is executed than before or after increment and decrement the values.
+2.we use while loop when we don't know no. iterations
+3.but in while loop it is not possible.
+4.but, in while loop if the condition is not satisfied it will shows compilation error.
+5.While loop executes a set of statements as long as the test expression is true.
+6.Systex- (test expression):
+          #Body of while
+          #statements
+i = 1
+while i<= 5:
+    print(i)
+    i = i+1
+Output
+1
+2
+3
+4
+5
+
+
+Do While loop-
+1.In do while loop statement is execute atleast once then check the condition of iterations.
+2.Syantex- Do[statement}
+while (Condition)
+3.It is known as exit controlled loop.
+3.Even if the condition is not true for the first time the control will enter in a loop.
+
+
+Nested While Loop-
+Python programming language allows to use one loop inside another loop. Following section shows few examples to illustrate the concept.
+
+
+Declairing a while loop in an existing loop is known as a nested while loop. It will have multiple test expression as well.
+
+
+
+
+Summary
+-A loop means repeating something multiple times.
+-While loops repeat something as long as a condition is true, and they check the condition only in the beginning.
+-For loops can be used for repeating something to each item in a list.
+-An iterable is something that can be for looped over.
+-The break keyword can be used to interrupt the innermost loop at any time.
+
+
+-Break Statement: It brings control out of the loop
+-Pass Statement: We use pass statement to write empty loops. Pass is also used for empty control statement,
+ function and classes.
+-Continue Statement: It returns the control to the beginning of the loop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
