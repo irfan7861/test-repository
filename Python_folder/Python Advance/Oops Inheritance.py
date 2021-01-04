@@ -1,6 +1,6 @@
 #inheritance
 # class vehicle:
-#     def __init__(self,mileage,cost):
+#     def __main__(self,mileage,cost):
 #         self.mileage = mileage
 #         self.cost = cost
 #
@@ -57,8 +57,8 @@ c1.show_vehicle_details()
 
 
 # class car:
-#     def __init__(self,mileage,cost,tyres,hp):
-#         super.__init__(mileage,cost)
+#     def __main__(self,mileage,cost,tyres,hp):
+#         super.__main__(mileage,cost)
 
 
 

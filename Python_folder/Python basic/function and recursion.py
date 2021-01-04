@@ -170,7 +170,7 @@ t1.show_tv_details()
 # myfun()
 
 # class Person():
-#     def __init__(self,name,age,height,weight):
+#     def __main__(self,name,age,height,weight):
 #         self.name = name
 #         self.age = age
 #         self.height = height
@@ -186,7 +186,7 @@ t1.show_tv_details()
 
 
 # class mobile:
-#     def __init__(self):
+#     def __main__(self):
 #         self.model = 'realmex'
 #     def show_details(self):
 #         print("model", self.model)
