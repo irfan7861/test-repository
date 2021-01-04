@@ -1,4 +1,73 @@
 #function
+# def func1():
+#     print("I am learning python function")
+# func1()
+
+
+# def my_function(fname):
+#     print(fname + "Refsnes")
+#
+# my_function("Email")
+
+# def square(x):
+#     print(x * x)
+# # print(square(4))
+# square(4)
+
+
+# def square(x):
+#     return x*x
+# print(square(4))
+
+
+
+
+#
+# def multiply(x,y):
+#     print(x*y)
+#
+# multiply(2,6)
+#
+#
+#
+# def plus(x,y,z):
+#     print(x+y+z)
+# plus(9,8,6)
+#
+#
+# def multiply(x,y):
+#     print("Value of x ", x)
+#     print("Value of y ", y)
+#
+#     return x*y
+#
+# print(multiply(5,6))
+
+
+class Tv:
+    def __init__(self,price,color):
+        self.price = price
+        self.color = color
+    def show_tv_details(self):
+        print("Price of tv", self.price)
+        print("Color of tv", self.color)
+t1 = Tv(30000,"red")
+t1.show_tv_details()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # marks= [87.76,87,98]
 # percentage1= (sum(marks)/400)*100
 #

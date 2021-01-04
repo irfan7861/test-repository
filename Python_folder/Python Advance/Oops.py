@@ -22,7 +22,7 @@ p1.make_call()
 
 p1.play_game()
 
-
+import oop_test.Tv.show_tv_details
 
 class laptop:
     def lap_ram(self):
