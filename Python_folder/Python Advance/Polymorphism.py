@@ -5,25 +5,25 @@
 
 
 
-# class Rabbit():
-#     def age(self):
-#         print("This function determines the age of Rabbit.")
-#
-#     def color(self):
-#         print("This function determines the color of Rabbit.")
-#
-# class Horse():
-#     def age(self):
-#         print("This function determines the age of Horse.")
-#
-#     def color(self):
-#         print("This function determines the color of Horse.")
-#
-# obj1 = Rabbit()
-# obj2 = Horse()
-# for type in (obj1, obj2): # creating a loop to iterate through the obj1, obj2
-#     type.age()
-#     type.color()
+class Rabbit():
+    def age(self):
+        print("This function determines the age of Rabbit.")
+
+    def color(self):
+        print("This function determines the color of Rabbit.")
+
+class Horse():
+    def age(self):
+        print("This function determines the age of Horse.")
+
+    def color(self):
+        print("This function determines the color of Horse.")
+
+obj1 = Rabbit()
+obj2 = Horse()
+for type in (obj1, obj2): # creating a loop to iterate through the obj1, obj2
+    type.age()
+    type.color()
 
 
 
@@ -86,32 +86,46 @@
 
 #polymorphism using with inheritance
 
-class Fruits:
-    def type(self):
-        print("Various type of fruits")
-    def colour(self):
-        print("colour of fruits")
+# class Fruits:
+#     def type(self):
+#         print("Various type of fruits")
+#     def colour(self):
+#         print("colour of fruits")
 
-class Apple(Fruits):
-    def colour(self):
-        print("colour of apple")
+# class Apple(Fruits):
+#     def colour(self):
+#         print("colour of apple")
 
-class Banana(Fruits):
-    def colour(self):
-        print("colour of banana")
+# class Banana(Fruits):
+#     def colour(self):
+#         print("colour of banana")
 
-obj_fruit = Fruits()
-obj_apple = Apple()
-obj_banana = Banana()
+# obj_fruit = Fruits()
+# obj_apple = Apple()
+# obj_banana = Banana()
 
-obj_fruit.type()
-obj_fruit.colour()
+# obj_fruit.type()
+# obj_fruit.colour()
 
-obj_apple.type()
-obj_apple.colour()
+# obj_apple.type()
+# obj_apple.colour()
 
-obj_banana.type()
-obj_banana.colour()
+# obj_banana.type()
+# obj_banana.colour()
+
+class tv:
+    def __init__(self,screen,brand,price):
+        self.screen = screen
+        self.brand = brand
+        self.price = price
+
+    def show_tv_details(self):
+        print("Size of screen ", self.screen)
+        print("Brand of tv ", self.brand)
+        print("Price of tv ", self.price)
+
+t1 = tv("32 inch", "samsung", 20000)
+t1.show_tv_details()  
 
 
 

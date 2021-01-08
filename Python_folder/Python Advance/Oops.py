@@ -1,66 +1,66 @@
-class Employee:
-    company = "Google"
+# class Employee:
+#     company = "Google"
 
-irfan = Employee()
-sameer = Employee()
-print(irfan.company)
-print(sameer.company)
-Employee.company = "YouTube"
-print(irfan.company)
-print(sameer.company)
+# irfan = Employee()
+# sameer = Employee()
+# print(irfan.company)
+# print(sameer.company)
+# Employee.company = "YouTube"
+# print(irfan.company)
+# print(sameer.company)
 
-class phone:
-    def make_call(self):
-        print("I am making a call")
-    def play_game(self):
-        print("I am playing game")
-
-
-p1 = phone()
-
-p1.make_call()
-
-p1.play_game()
-
-import oop_test.Tv.show_tv_details
-
-class laptop:
-    def lap_ram(self):
-        print("4GB ram")
-    def lap_hdd(self):
-        print("1TB Memory")
-    def lap_cpu(self):
-        print("I3 processor")
-    def lap_graphics(self):
-        print("2GB Nvidea")
-#
-#
-l1 = laptop()
+# class phone:
+#     def make_call(self):
+#         print("I am making a call")
+#     def play_game(self):
+#         print("I am playing game")
 
 
-l1.lap_ram()
-l1.lap_graphics()
-l1.lap_cpu()
-l1.lap_hdd()
+# p1 = phone()
+
+# p1.make_call()
+
+# p1.play_game()
+
+# import oop_test.Tv.show_tv_details
+
+# class laptop:
+#     def lap_ram(self):
+#         print("4GB ram")
+#     def lap_hdd(self):
+#         print("1TB Memory")
+#     def lap_cpu(self):
+#         print("I3 processor")
+#     def lap_graphics(self):
+#         print("2GB Nvidea")
+# #
+# #
+# l1 = laptop()
 
 
-class employee:
-    def __init__(self,name,age,salary,gender):
-        self.name = name
-        self.age = age
-        self.salary = salary
-        self.gender = gender
-
-    def show_employee_details (self):
-        print("Name of employee ", self.name)
-        print("Age of employee ", self.age)
-        print("Salary of employee ", self.salary)
-        print ("Gender ofemployee ", self.gender)
-
-e1 = employee('sameer',32,50000,'male')
+# l1.lap_ram()
+# l1.lap_graphics()
+# l1.lap_cpu()
+# l1.lap_hdd()
 
 
-e1.show_employee_details()
+# class employee:
+#     def __init__(self,name,age,salary,gender):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+#         self.gender = gender
+
+#     def show_employee_details (self):
+#         print("Name of employee ", self.name)
+#         print("Age of employee ", self.age)
+#         print("Salary of employee ", self.salary)
+#         print ("Gender ofemployee ", self.gender)
+
+# e1 = employee('sameer',32,50000,'male')
+
+
+# e1.show_employee_details()
 
 
 
